@@ -1,0 +1,5 @@
+type Mutation {
+  addComment(text: String!, postId: String!): Comment!
+}
+
+#Comment를 추가할 때는 text와 포스트 ID를 입력해야 함. return값으로는 Comment 객체를 리턴함
